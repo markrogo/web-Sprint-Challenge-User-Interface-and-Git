@@ -70,7 +70,35 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+nav {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    align-items: flex-end;
+    /* margin-left: 30px;
+    margin-right: 30px; */
+}
 
+nav a {
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+
+/* hmmm{
+
+} */
+}
+
+nav a:hover {
+    padding: 10px 30px;
+    transition: 0.2s;
+    background-color: lightsalmon;
+}
+
+.nav-image {
+    margin-bottom: 30px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -79,10 +107,31 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    /* border-bottom: 1px dashed black; */
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.text-container-about {
+    margin-bottom: 50px;
+    margin-top: 10px;
+    border-bottom: 1px dashed black;
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+.text-container-about p {
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 .middle-content {
@@ -95,12 +144,31 @@ p {
     margin-bottom: 0;
 }
 
+.about-page h2 {
+    margin-top: 10px;
+}
+
+ .learn-more {
+    text-decoration: none;
+    padding: 7px 20px;
+    /* margin: 0px 50px 50px 0px; */
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
+.middle-content .tiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 0px;
+    border-bottom: 1px dashed black;
+    
+} 
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -110,6 +178,45 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+#box1{
+    background-color: teal;
+}
+
+#box2{
+    background-color:gold;
+}
+#box3{
+    background-color: cadetblue;
+}
+
+#box4{
+    background-color: coral;
+}
+#box5{
+    background-color: crimson;
+}
+#box6{
+    background-color: forestgreen;
+}
+#box7{
+    background-color: darkorchid;
+}
+#box8{
+    background-color: hotpink;
+}
+#box9{
+    background-color: indigo;
+}
+#box10{
+    background-color: dodgerblue;
+}
+
+.narrow {
+    width: 100%;
+    height: 250px;
 }
 
 .bottom-content {
@@ -143,4 +250,15 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+footer nav a:hover {
+    padding: 10px 30px;
+    transition: 0.2s;
+    background-color: lightsalmon;
+}
+
+em {
+    font-style: italic;
 }
